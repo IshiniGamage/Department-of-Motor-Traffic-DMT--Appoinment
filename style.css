@@ -1,0 +1,177 @@
+/* Custom styles */
+.navbar-custom {
+  background-color: #c92626;
+}
+
+.footer {
+  width: 100%;
+  background-color: #c92626;
+  color: #ffffff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.form-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust the opacity as needed */
+}
+
+.navbar-brand img {
+  max-width: 20px; /* Adjust the max-width of the logo */
+  border-radius: 50%; /* Make the logo round */
+  overflow: hidden; /* Ensure the image stays within the rounded border */
+}
+
+.navbar-custom {
+  max-height: 20; /* Adjust the max-width of the navbar */
+  margin: 0 auto; /* Center the navbar horizontally */
+}
+
+.service-item {
+  padding: 10px; /* Padding for each service item */
+  border-bottom: 1px solid #eee; /* Divider between service items */
+}
+
+.service-item:last-child {
+  border-bottom: none; /* Remove divider from last service item */
+}
+
+.service-item i {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.highlight-box {
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Creative Enhancements */
+/* Background Animation */
+body {
+  background-image: url('https://adaderanaenglish.s3.amazonaws.com/1602356234-Motor-Traffic-Dept-suspends-public-services-for-another-week-L.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Interactive Elements */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+.dropdown-item:hover {
+  background-color: #c92626;
+  color: #fff;
+}
+
+/* Custom Icons */
+.service-item i {
+  margin-right: 10px;
+  color: #c92626; /* Adjust icon color */
+}
+
+/* Gradient Effects */
+.btn-primary {
+  background: linear-gradient(to right, #c92626, #f6b93b); /* Gradient background */
+  border: none;
+  width: 200px; 
+  align-items: center;
+}
+.btn-primary:hover {
+  background: linear-gradient(to right, #f6b93b, #c92626); /* Gradient background on hover */
+}
+
+/* Hover Effects */
+.btn-primary {
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Animated Transitions */
+.services-section {
+  transition: all 0.3s ease;
+}
+.services-section:hover {
+  transform: translateY(-5px); /* Move up on hover */
+}
+/* Adjustments for details text */
+.details-text {
+  font-size: 14px; /* Adjust font size */
+  color: #555; /* Adjust color */
+  margin-left: 10px; /* Adjust spacing */
+}
+
+.details-text {
+  font-size: 18px; /* Adjust font size */
+  color: #555; /* Adjust color */
+  margin-left: 350px; /* Adjust spacing */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center vertically */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .details-text {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* Phone number styling */
+.phone-number {
+  color: #c92626;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: bold;
+  animation: fadeIn 3s ease-in-out infinite; /* Add 'infinite' for continuous animation */
+}
+
+
+.phone-number:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Adjustments for responsive design */
+@media (max-width: 768px) {
+  .details-text {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+.col-form-label {
+  margin-bottom: 0; /* Remove margin bottom */
+}
